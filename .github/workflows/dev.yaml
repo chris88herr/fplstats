@@ -32,4 +32,4 @@ jobs:
         run: |
           python fplInsights/manage.py test
       - name: Check Syntax #We are just testing the syntax in names app; pycodestyle uses pep8 conventions of max line length of 79 characters while Django recommends 119 characters
-        run: pycodestyle --statistics names
+        run: pycodestyle --statistics fplInsights
